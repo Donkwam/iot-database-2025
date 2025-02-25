@@ -3,6 +3,10 @@ IoT 개발자 데이터베이스 저장소
 
 ## 1일차
 - 데이터베이스 시스템
+    - 통합된 데이터를 저장해서 운영하면서, 동시에 여러사람이 사용할 수 있도록 하는 시스템
+    - 실시간 접근, 계속 변경, 동시 공유가 가능, 내용으로 참조(물지적으로 떨어져 있어도 사용가능)
+
+    - DBMS - SQL Server, Oracle, MySQL, MariaDB, MongoDB...
 
 - MySQL 설치(Doker)
     ``` shell
@@ -82,7 +86,18 @@ IoT 개발자 데이터베이스 저장소
     - MySQL Installer에서 Workbench, Sample 만 설치
 
     - Workbench
-        1. MySQL Conne
+        1. MySQL Connection + 클릭
 
 
 - 관계 데이터 모델
+    - 생략
+
+- SQL 기초
+    - SQL 개요
+    
+    ```sql
+    -- DML SELECT문
+    SELECT publisher, price
+    FROM Book
+    WHERE bookname = '축구의 역사'; -- 주석입니다
+    ```
