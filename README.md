@@ -132,7 +132,7 @@ IoT 개발자 데이터베이스 저장소
         - DML(데이터 제어어) 
             - GRANT, REVOKE
 
-    - DML 중 검색 만
+    - DML 중 SELECT
 
         ```sql
         SELECT [ALL|DISTINI] 컬럼명(들)
@@ -150,3 +150,5 @@ IoT 개발자 데이터베이스 저장소
 ## 3일차
 - SQL 기초
     - DDL
+    - DML 중 INSERT, UPDATE, DELETE
+- SQL 고급
