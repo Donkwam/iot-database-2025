@@ -150,6 +150,24 @@ IoT 개발자 데이터베이스 저장소
         - 쿼리 연습(집계함수부터) : [SQL](./day02/db03_select집계함수.sql)
 
 ## 3일차
+- Visual Studio Code에서 MySQL연동
+    - 확장 > MySQL 검색
+        - Weijan Chan 개인개발자 만든 MySQL 확장도 준수(추천)
+        - Weijan Chan 개발한 Database Client를 설치 (추천)
+            - 데이터베이스 아이콘 생성
+        - Database Client는 많은 DB 연결이 가능!
+        - Oracle에서 개발한 MySQL Shell for VS Code를 사용 권장 하지말것(너무 불편함)
+    - Database Client
+        1. 툴바의 Database 아이콘 클릭
+        2. Create Connection
+        3. 정보 입력 > 연결 테스트
+
+            <img src='./image/db002.png' width='600'>
+
+        4. Workbench 처럼 사용
+
+            <img src='./image/db003.png' width='600'>
+
 - SQL 기초
     - DDL
     - DML 중 INSERT, UPDATE, DELETE
