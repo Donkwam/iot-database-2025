@@ -81,3 +81,5 @@ SELECT cs.name, SUM(o.saleprice) '구매액'
 		  FROM Customer
 		 WHERE custid <= 2) AS cs, Orders AS o
  WHERE cs.custid = o.custid
+ GROUP BY cs.name;
+ 
