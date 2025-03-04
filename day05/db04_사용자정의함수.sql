@@ -1,7 +1,10 @@
 -- 사용자 정의함수. 내장함수 반대. 개발자가 직접만드는 함수
 -- 저장프로시저와 유사. RETURNS, RETURN 키워드가 차이남
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 -- 1행 1열, 스칼라값 리턴
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 SELECT char_length('HELLO WORLD');
@@ -22,7 +25,11 @@ END;
 -- 실행
 SELECT custid, orderid, saleprice, fnc_Interest(saleprice) AS '이익금'
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   FROM Orders;
+=======
+  FROM 
+>>>>>>> Stashed changes
 =======
   FROM 
 >>>>>>> Stashed changes
