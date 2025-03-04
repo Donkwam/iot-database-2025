@@ -11,5 +11,5 @@ BEGIN
 END;
 
 -- 프로시저를 실행할때는 ctrl+Enter가 제대로 실행안됨. 마우스로 드래그하고 마우스로 번개아이콘 클릭
-CALL AveragePrice(@myValue)
+CALL AveragePrice(@myValue);
 SELECT @myValue;
