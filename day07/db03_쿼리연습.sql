@@ -149,3 +149,5 @@ select location_id
   from locations
  where city like 'o%';
 
+insert into tablename (columnlist)
+values (valuelist);
